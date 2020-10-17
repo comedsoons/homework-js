@@ -1,10 +1,10 @@
-const friends = ["oleg", "marek", "artem", "vova", "ivan"];
+const friends = [ "oleg", "marek", "artem", "vova", "ivan" ];
 
 for (const friend of friends) {
-    if (friend === "oleg") {
-        console.log("Найкращого друга знайдено!");
+    if ( friend === "oleg" ) {
+        console.log( "Найкращого друга знайдено!" );
         break;
     } else {
-        console.log("Найкращого друга не знайдено!");
+        console.log( "Найкращого друга не знайдено!" );
     }
 }
